@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PXL – QR Code Component</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .qr-card {
+      background-color: hsl(212, 45%, 89%);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 300px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      margin-bottom: auto; /* Push attribution to bottom */
+    }
+
+    .qr-image {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      color: hsl(218, 44%, 22%);
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      color: hsl(216, 15%, 48%);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="qr-card">
+    <img src="./images/image-qr-code.png" alt="QR Code" class="qr-image">
+    <h1 class="title">Improve your front-end skills</h1>
+    <p class="description">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
+    </p>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">PXL – Programming eXperience Lab</a>.
+  </div>
+
+</body>
+</html>
